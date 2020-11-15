@@ -1,9 +1,14 @@
-# PeddyOlhalvo-18
-Peddy Paper around the village of Olhalvo, all questions are in Portuguese. 
-The app was tested in September 2018.
+# A Blank PhoneGap App
 
-### Tools
-PhoneGap https://phonegap.com/
+## Usage
 
-HTML; JS; CSS
+### PhoneGap CLI
+
+    $ phonegap create my-app --template blank
+
+### Desktop
+
+In your browser, open the file:
+
+    /www/index.html
 

@@ -1,0 +1,394 @@
+.hide{
+	display:none;
+}
+.show{
+	display:block;
+}
+* {
+    font-size: 18pt;
+    font-family: Calibri;
+    text-align: center;
+    background-color: #010048;
+    color: #fffefe;
+}
+p{
+    background-color: transparent;
+}
+header {
+    background-color: #369bc9;
+    height: 41pt;
+    padding: 2pt;
+    font-size: 30pt;
+    text-align: center;
+    /* border: 100pt; */
+}
+span#titulo {
+    background-color: transparent;
+    /* font-family: Ubunto sans-serif; */
+    font-size: 28pt;
+/*    position: relative;
+    top: -12pt;*/
+}
+p#pwelc {
+    font-size: 22pt;
+    margin-bottom: -2pt;
+}
+p#equipaWelc {
+    font-size: 18pt;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+}
+input#equipa {
+    height: 37pt;
+    width: 195pt;
+    /* background-color: red; */
+    border: 5pt 5pt 5pt 5pt;
+    /* border-color: white; */
+    border-bottom-color: white;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    FONT-SIZE: 20pt;
+    color: aquamarine;
+}
+p.pass {
+    font-size: 16pt;
+    margin-bottom: 10pt;
+    margin-top: -2pt;
+}
+button#nextWelcome {
+    width: 97pt;
+    height: 41pt;
+    font-size: 40pt;
+    position: relative;
+    top: 23pt;
+    font-size: 18pt;
+    left: 72pt;
+    background-color: green;
+}
+input#passWelcoming {
+    height: 31pt;
+    width: 195pt;
+    font-size: 18pt;
+    /* border: white; */
+    border-bottom-color: white;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+.btnPercurso {
+    height: 51pt;
+    width: 131pt;
+    font-size: 19pt;
+    font-weight: bold;
+    position: relative;
+    top: 124pt;
+    color: #040013;
+    background-color: white;
+    /* border-color: gold; */
+    border: solid;
+    border-width: 3pt;
+    border-color: #2b9afa;;
+}
+div#botoesPercurso {
+    position: relative;
+    top: -113pt;
+    height: 0pt;
+}
+h4#equipaNome {
+    text-align: left;
+    position: relative;
+    /* right: 7pt; */
+    left: 6pt;
+    font-size: 18pt;
+}
+button {
+    width: 176pt;
+    height: 76pt;
+    font-size: 40pt;
+}
+.indices {
+    color: #010048;
+    width: 27pt;
+    height: 26pt;
+    font-size: 13pt;
+    font-weight: bold;
+    border-radius: 50%;
+    border: solid 2.5pt;
+    border-color: #2b9afa;
+    position: relative;
+    top: 15pt;
+}
+div#indice {
+    /* padding: 3pt; */
+    margin-bottom: 38pt;
+}
+button#continuarParaPercurso {
+    width: 97pt;
+    height: 41pt;
+    position: relative;
+    top: 20pt;
+    /* top: -159pt; */
+    right: -11pt;
+    font-size: 18pt;
+    /* font-weight: bold; */
+    background-color: green;
+}
+button#voltarInfo {
+    position: relative;
+    top: 20pt;
+    right: 90pt;
+    width: 97pt;
+    height: 41pt;
+    background-color: #052978;
+    position: relative;
+    top: 20pt;
+    /* top: -158pt; */
+    right: 10pt;
+    font-size: 18pt;
+}
+
+p#pergunta {
+    font-size: 20pt;
+}
+p#indicacao {
+    font-size: 18pt;
+}
+.respostas {
+    height: 48pt;
+    width: 204pt;
+    font-size: 20pt;
+}
+
+button#p1back {
+    height: 41pt;
+    width: 97pt;
+    font-size: 18pt;
+    background-color: #052978;
+    position: relative;
+    left: 17pt;
+    top: -41pt;
+}
+button#p1next {
+    height: 41pt;
+    width: 97pt;
+    font-size: 18pt;
+    background-color: #009688;
+    position: relative;
+    left: 127pt;
+}
+
+
+#concluir {
+    height: 41pt;
+    width: 97pt;
+    font-size: 18pt;
+    background-color: green;
+    position: relative;
+    left: 127pt;
+    top: -100pt;
+}
+
+#erroPassInicio {
+    color: red;
+    position: relative;
+    top: -35pt;
+    font-size: 17pt;
+    /* position: relative; */
+    width: 114pt;
+    left: 5pt;
+}
+button#terminarResponder {
+    height: 52pt;
+    width: 87pt;
+    font-size: 16pt;
+    position: relative;
+    /* top: 150pt; */
+    left: -12pt;
+}
+p#mensTerminar {
+    background-color: transparent;
+    font-size: 16pt;
+}
+button#continuarResultados {
+    height: 52pt;
+    width: 87pt;
+    font-size: 16pt;
+    background-color: green;
+    position: relative;
+    /* top: 150pt; */
+    left: 13pt;
+}
+button#continuarResultadosPass {
+    position: relative;
+    /* top: -50pt; */
+    top: 2.5pt;
+    /* left: 83pt; */
+    width: 29pt;
+    height: -30pt;
+    font-size: 22pt;
+    height: 29pt;
+    background-color: green;
+    border: transparent;
+}
+input#passFimPercurso {
+    width: 144pt;
+    height: -30pt;
+    font-size: 15pt;
+    height: 23pt;
+    position: relative;
+    left: 3pt;
+    background-color: #fffefe;
+    border: solid 2pt;
+    border-color: #fff;
+    color: black;
+}
+
+
+div#confirmarSaidaPerguntas {
+    background-color: #009688;
+    position: relative;
+    top: -293pt;
+    height: 319pt;
+    padding: 10pt;
+    border: solid 5pt;
+    border-color: #fffefe;
+    font-size: 18pt;
+}
+p#passFimPerc {
+    font-size: 16pt;
+    background-color: transparent;
+}
+div#passFinalPerc {
+    background-color: transparent;
+}
+p#erroPassFimPerc {
+    position: relative;
+    top: -15pt;
+    left: -27pt;
+    background-color: transparent;
+    font-size: 21pt;
+    font-weight: bold;
+}
+table{
+	width:90%;
+}
+table, th, td {
+	border: 1pt solid black;
+	border-collapse:collapse;
+}
+th, td {
+    padding: 4pt;
+    text-align: center;
+    font-size: 15pt;
+}
+table#tabelaResGerais th{
+		background-color:#eee;
+		color:black;
+}
+h4#tempo {
+    font-size: 18pt;
+    margin-top: 4pt;
+    margin-bottom: 16pt;
+}
+h4#pontos{
+    font-size: 18pt;
+    margin-bottom: 6pt;
+    margin-top: 16pt;
+}
+table#tabelaResGerais {
+    position: relative;
+    left: 12pt;
+}
+.novosPercursos {
+    height: 52pt;
+    width: 87pt;
+    position: relative;
+    left: 63.5pt;
+    top: -7pt; 
+    background-color: #0c75d0;
+    font-size: 16pt;
+}
+p#paragDetalhe {
+    font-size: 17pt;
+}
+p#valoresObtidos1 {
+    position: relative;
+    top: 107pt;
+    font-size: 16pt;
+}
+p#valoresObtidos2 {
+    position: relative;
+    top: 134pt;
+    font-size: 16pt;
+}
+p#valoresObtidos3 {
+    font-size: 16pt;
+    position: relative;
+    top: 160pt;
+}
+button#p2 {
+    position: relative;
+    top: 150pt;
+}
+button#p3 {
+    position: relative;
+    top: 176pt;
+}
+button#p4 {
+    position: relative;
+    top: 223pt;
+}
+button#sairDetalhes {
+    width: 87pt;
+    height: 52pt;
+    background-color: #052978;
+    position: relative;
+    top: 4pt;
+    right: 9pt;
+    font-size: 18pt;
+    /* right: -100pt; */
+    /* top: -50pt; */
+}
+.divPerc{
+    background-color: transparent;
+    height: 30pt;
+}
+
+button#detNovosPerc {
+    position: relative;
+    left: 14pt;
+    font-size: 40pt;
+    /* width: 347pt; */
+    font-size: 18pt;
+}
+span#detRespCerta {
+    font-size: 20pt;
+}
+span#detRespSua {
+    font-size: 20pt;
+}
+button#voltarInfoDesp {
+    position: relative;
+    top: 20pt;
+    right: 90pt;
+    width: 97pt;
+    height: 41pt;
+    background-color: #052978;
+    position: relative;
+    top: 20pt;
+    /* top: -158pt; */
+    right: 10pt;
+    font-size: 18pt;
+}
+button#continuarDesporto {
+    width: 97pt;
+    height: 41pt;
+    position: relative;
+    top: 20pt;
+    /* top: -159pt; */
+    right: -11pt;
+    font-size: 18pt;
+    /* font-weight: bold; */
+    background-color: green;
+}
